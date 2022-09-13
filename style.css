@@ -28,6 +28,10 @@ h2 {
     font-size: 40px;
     padding-bottom: 26px;
 }
+
+main p {
+    text-align: justify;
+}
 /* Header */
 
 
@@ -147,13 +151,15 @@ main .box-text {
 
 
 /* Main */
-main {
-    padding-top: 50px;
-}
+/* main {
+    padding-top: 0;
+}*/
 
 section {  
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
+
+
 
 section.bg-grey {
     background-color: #F6F6F6;
@@ -203,7 +209,7 @@ section.section-bottom .container {
 main .big-image {
     background-image: url(img/item4-big.svg);
     background-repeat: no-repeat;
-    height: 600px;
+    height: 530px;
     width: 871px;
 }
 
@@ -219,17 +225,57 @@ main .box-text {
     padding-top: 30px;
 }
 
+main .cta .image {
+    display: flex;
+    background-image: url(img/stars.svg);
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    width: 600px;
+}
+
+.cta .image h2 {
+    font-size: 30px;
+    padding-top: 42px;
+}
+
+.cta .button {
+    display: flex;
+    justify-content: center;
+    padding: 20px 10px;
+    margin: 0 150px 130px;
+    background-color: #92A0DD;
+    border-radius: 30px;
+    color: white;
+}
+
 /* Footer */
 
 footer {
     background-color: #24272a;
+    color: white;
+}
+
+footer h3 {
+    font-size: 37px;
+}
+
+footer h3, h4 {
+    color: #7788D4;
+    padding-bottom: 10px;
+}
+
+footer li {
+    padding-bottom: 10px;
 }
 
 .footer-top {
     display: flex;
+    padding-top: 60px;
+    padding-bottom: 110px;
     /* Debug */
     min-height: 300px;
-    background-color: rgb(190, 239, 57);
 }
 
 .footer-top .col-social {
@@ -237,7 +283,7 @@ footer {
 }
 
 .footer-top .col-menu {
-    width: calcl(100% / 6);
+    width: calc(100% / 6);
 }
 
 .footer-bottom {
@@ -245,6 +291,44 @@ footer {
     justify-content: space-between;
     /* Debug */
     min-height: 200px;
-    background-color: violet;
 }
 
+footer .lingua {
+    display: flex;
+    flex-direction: row;
+}
+
+footer .bandiera {
+    background-image: url(img/ita.png);
+    background-repeat: no-repeat;
+    height: 16px;
+    width: 24px;
+    background-size: cover;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer .footer-bottom {
+    padding-top: 20px;
+    border-top: 1px solid #4D587F;
+}
+
+footer .logo {
+    background-image: url(img/logo.svg);
+    background-repeat: no-repeat;
+    min-width: 125px;
+    height: 35px;
+}
+
+footer .button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 35px;
+    width: 95px;
+    background-color: #92A0DD;
+    border-radius: 30px;
+    color: white;
+}
