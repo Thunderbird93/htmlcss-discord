@@ -282,6 +282,7 @@ footer li {
     width: calc(100% / 3);
 }
 
+
 .footer-top .col-menu {
     width: calc(100% / 6);
 }
@@ -303,7 +304,8 @@ footer .bandiera {
     background-repeat: no-repeat;
     height: 16px;
     width: 24px;
-    background-size: cover;
+    background-size: contain;
+    padding-right: 33px;
 }
 
 footer li {
@@ -312,7 +314,7 @@ footer li {
 
 footer .footer-bottom {
     padding-top: 20px;
-    border-top: 1px solid #4D587F;
+    border-top: 0.5px #4D587F;
 }
 
 footer .logo {
@@ -331,4 +333,12 @@ footer .button {
     background-color: #92A0DD;
     border-radius: 30px;
     color: white;
+}
+
+.social {
+    padding-top: 20px;
+}
+
+i {
+    padding-right: 35px;
 }
