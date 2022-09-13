@@ -16,6 +16,13 @@ body {
     margin: 0 auto;
 }
 
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 42px;
+    padding: 50px;
+}
 /* Header */
 
 
@@ -23,7 +30,7 @@ header {
     display: flex;
     align-items: center;
     height: 80px;
-    background-color: #3D60D9;
+    background-color: #355DE0;
     color: white;
 }
 
@@ -78,14 +85,55 @@ header .button {
     background-image: url(img/jumbo.png);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-direction: column;
+    color: white;
 }
 
 .jumbotron .content {
     max-width: 800px;
-
-    /* Debug */
-    background-color: green;
+    text-align: center;
 }
+
+.jumbo-box {
+    max-width: 610px;
+    margin-bottom: 100px;
+    margin-top: 50px;
+}
+
+.jumbotron .button-white {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 177px;
+    height: 45px;
+    background-color: white;
+    color: black;
+}
+
+.jumbotron .button-black {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 244px;
+    height: 45px;
+    background-color: black;
+    color: white;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 20px 10px;
+    margin: 0 63px 0;
+}
+
+.jumbotron .buttons .button-white, .button-black {
+    border-radius: 30px;
+}
+
+
+
 
 /* Main */
 main {
