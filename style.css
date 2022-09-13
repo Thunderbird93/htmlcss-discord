@@ -290,6 +290,8 @@ footer li {
 .footer-bottom {
     display: flex;
     justify-content: space-between;
+    padding-top: 20px;
+    border-top: 1px solid #4D587F;
     /* Debug */
     min-height: 200px;
 }
@@ -313,8 +315,6 @@ footer li {
 }
 
 footer .footer-bottom {
-    padding-top: 20px;
-    border-top: 0.5px #4D587F;
 }
 
 footer .logo {
