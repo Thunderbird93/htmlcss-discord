@@ -23,7 +23,7 @@ header {
     display: flex;
     align-items: center;
     height: 80px;
-    background-color: #3D60D8;
+    background-color: #3D60D9;
     color: white;
 }
 
@@ -75,9 +75,9 @@ header .button {
     justify-content: center;
     align-items: center;
     height: 550px;
-
-    /* Debug */
-    background-color: yellowgreen;
+    background-image: url(img/jumbo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .jumbotron .content {
